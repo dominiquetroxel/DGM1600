@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px){
+
+}
+#welcome-section{
+    background-color: lightblue;
+    height: 100vh;
+}
+#navbar{
+    background-color: green;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+body{
+    margin: 0;
+}
+#navbar a{
+    padding: 10px;
+    margin: auto;
+    width: 60px;
+}
